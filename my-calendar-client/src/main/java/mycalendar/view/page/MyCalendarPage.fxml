@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" type="StackPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane fx:id="myCalendarBorderPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity">
+         <top>
+            <HBox fx:id="topContainer" alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0" spacing="5.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="myCalendarLabel" text="MyCalendar" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin></Label>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="46.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                           <HBox.margin>
+                              <Insets bottom="2.0" right="2.0" top="2.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <MenuButton fx:id="settingsMenu" mnemonicParsing="false" text="O">
+                     <items>
+                        <MenuItem fx:id="changeThemeMenuItem" mnemonicParsing="false" onAction="#onChangeThemeAction" text="Change Theme" />
+                        <MenuItem fx:id="changeLangMenuItem" mnemonicParsing="false" onAction="#onChangeLangAction" text="Change Language" />
+                        <MenuItem fx:id="logoutMenuItem" mnemonicParsing="false" onAction="#onLogoutAction" text="Logout" />
+                     </items>
+                  </MenuButton>
+                  <Label fx:id="userUsernameLabel" text="Gianluca" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="5.0" right="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </HBox>
+         </top>
+         <left>
+            <VBox fx:id="leftCardsContainer" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="300.0" spacing="10.0" style="-fx-background-color: transparent;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</fx:root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="240.0" spacing="1.0" type="VBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox fx:id="titleContainer" alignment="CENTER">
+         <children>
+            <Label fx:id="titleLabel" text="Go to GYM">
+               <padding>
+                  <Insets bottom="1.0" left="8.0" right="8.0" top="1.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="4.0" top="2.0" />
+               </HBox.margin>
+            </Label>
+            <HBox fx:id="dateContainer" alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label fx:id="dateLabel" text="2021-07-03" />
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox fx:id="localityContainer" alignment="CENTER_LEFT" layoutX="20.0" layoutY="20.0">
+         <children>
+            <Label fx:id="localityLabel" text="Cina" />
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets top="3.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox fx:id="timeContainer" alignment="CENTER_LEFT" layoutX="20.0" layoutY="76.0">
+         <children>
+            <Label fx:id="timeLabel" text="18:30 to 19:30" />
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <HBox fx:id="descriptionContainer" alignment="CENTER_LEFT" layoutX="20.0" layoutY="52.0">
+         <children>
+            <Label fx:id="descriptionLabel" text="Bring cleand chlotes">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</fx:root>

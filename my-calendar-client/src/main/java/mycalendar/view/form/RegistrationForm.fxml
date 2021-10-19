@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root fx:id="rightPane" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="500.0" type="BorderPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox fx:id="fieldsContainer" alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="400.0" spacing="4.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="topContainer">
+               <children>
+                  <Button fx:id="gotoLoginButton" mnemonicParsing="false" onAction="#onGotoLoginButtonActionPerformed" text="&lt;">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <HBox alignment="CENTER" style="-fx-background-color: transparent;" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label fx:id="registerTitleLabel" text="Register to MyCalendar" />
+                     </children>
+                     <padding>
+                        <Insets right="35.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <VBox fx:id="fNameContainer" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0">
+               <children>
+                  <Label fx:id="firstNameLabel" text="First Name">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+            <VBox fx:id="lNameContainer" alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0">
+               <children>
+                  <Label fx:id="lastNameLabel" text="Last Name">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+            <VBox fx:id="usernameContainer" alignment="CENTER_LEFT" layoutX="10.0" layoutY="80.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0">
+               <children>
+                  <Label fx:id="usernameLabel" text="Username">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+            <VBox fx:id="passwordContainer" alignment="CENTER_LEFT" layoutX="10.0" layoutY="168.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" spacing="5.0">
+                     <children>
+                        <Label fx:id="passwordLabel" text="Password">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                        <Button fx:id="passwordInformationsButton" mnemonicParsing="false" text="?" />
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="20.0" right="60.0" />
+               </padding>
+            </VBox>
+            <VBox fx:id="confPasswordContainer" alignment="CENTER_LEFT" layoutX="10.0" layoutY="242.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0">
+               <children>
+                  <Label fx:id="confirmPasswordLabel" text="Confirm your password">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="20.0" right="60.0" />
+               </padding>
+            </VBox>
+            <VBox fx:id="emailContainer" alignment="CENTER_LEFT" layoutX="10.0" layoutY="390.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0">
+               <children>
+                  <Label fx:id="emailLabel" text="Email*">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+            <HBox fx:id="registerButtonContainer" alignment="BOTTOM_CENTER" maxHeight="-Infinity" minHeight="-Infinity">
+               <children>
+                  <Button fx:id="registerButton" mnemonicParsing="false" onAction="#onRegisterButtonActionPerformed" prefHeight="35.0" prefWidth="120.0" text="Register">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </HBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="30.0" top="30.0" />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+      </VBox>
+   </center>
+</fx:root>

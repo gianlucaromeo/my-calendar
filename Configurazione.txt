@@ -1,0 +1,1 @@
+Prima di importare il progetto, è necessario eseguire il jar "lombok-1.18.20.jar", all'interno della cartella "my-calendar-server" e procedere all'installazione.

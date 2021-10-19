@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="StackPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane fx:id="mainBorderPane" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="260.0">
+         <center>
+            <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" prefViewportHeight="199.0" prefViewportWidth="260.0" vbarPolicy="NEVER" BorderPane.alignment="TOP_CENTER">
+               <content>
+                  <VBox fx:id="upcomingEventsContainer" spacing="10.0" BorderPane.alignment="CENTER">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+               </content>
+               <padding>
+                  <Insets bottom="10.0" left="5.0" top="5.0" />
+               </padding>
+            </ScrollPane>
+         </center>
+         <top>
+            <HBox fx:id="topContainer" alignment="CENTER" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Circle fill="#70ffb8" radius="7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                  <Label fx:id="titleLabel" text="Label" />
+               </children>
+               <padding>
+                  <Insets bottom="15.0" top="15.0" />
+               </padding>
+            </HBox>
+         </top>
+         <StackPane.margin>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+         </StackPane.margin>
+      </BorderPane>
+   </children>
+</fx:root>

@@ -1,0 +1,622 @@
+.root {
+	-fx-font: 12px Helvetica;
+	-fx-text-fill: #000;
+}
+
+.label {
+	-fx-text-fill: #000;
+}
+
+.custom-text-field {
+	-fx-text-fill: #000000;
+}
+
+.dtpicker-base {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #FFFFFF;
+	-fx-effect: dropshadow(gaussian, rgb(230, 230, 230), 15, 0.5, 0.0, 0.0);
+} 
+
+.slider .track {
+	-fx-background-color: #efefef;
+}
+
+.slider .thumb {
+	-fx-background-color: rgb(60, 150, 240);
+}
+
+/* Initial Page */
+.init-page-base {
+	-fx-background-color: #FFFFFF;
+} 
+
+.init-page-top {
+	-fx-background-color: #FAFAFA;
+}
+/* End Initial Page */
+
+/* Initial Page, Left */
+.init-left-base {
+	-fx-background-color: transparent;
+}
+
+.init-left-main-container {
+	-fx-background-color: transparent;
+}
+
+.init-left-title {
+	-fx-text-fill: rgb(60, 140, 250);
+	-fx-font: 46px Helvetica;
+}
+
+.init-left-main-content {
+	-fx-font-size: 26px;
+	-fx-text-fill: #686868;
+}
+
+.init-left-content {
+	-fx-text-fill: #808080;
+	-fx-font-size: 18px;
+}
+/* End Initial Page, Left */
+
+/* Login */
+.login-page {
+	-fx-background-color: transparent;
+}
+
+.login-form-top-container {
+	-fx-background-radius: 7 7 0 0;
+	-fx-border-radius: 7 7 0 0;
+	-fx-background-color: rgb(60, 140, 250);
+}
+
+.login-label {
+	-fx-font-size: 14px;
+	-fx-text-fill: #FFF;
+}
+
+.login-form {
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-background-color: #FFFFFF;
+	-fx-effect: dropshadow(gaussian, rgb(230, 230, 230), 15, 0.5, 0.0, 0.0);
+}
+
+.login-button {
+	-fx-font-size: 11px;
+	-fx-text-fill: #fff;
+	-fx-background-color: rgb(60, 140, 250);
+	-fx-effect: dropshadow(gaussian, rgb(214, 214, 214), 5, 0.5, 0.0, 0.0);
+}
+
+.login-button:hover {
+	-fx-font-size: 12px;
+}
+
+.password-info-btn {
+	-fx-background-color: transparent;
+}
+
+.create-account-hlink {
+	fx-text-fill: rgb(60, 140, 250);
+}
+
+.create-account-hlink:hover {
+	fx-text-fill: rgb(0, 64, 128);
+}
+/* End Login */
+
+/* Registration */
+.registration-page {
+	-fx-background-color: transparent;
+}
+
+.registration-form-top-container {
+	-fx-background-radius: 7 7 0 0;
+	-fx-border-radius: 7 7 0 0;
+	-fx-background-color: rgb(60, 140, 250);
+}
+
+.registration-form {
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-background-color: #ffffff;
+	-fx-effect: dropshadow(gaussian, rgb(230, 230, 230), 15, 0.5, 0.0, 0.0);
+}
+
+.registration-form-title {
+	-fx-text-fill: #fff;
+	-fx-font-size: 16px;
+}
+
+.registration-button {
+	-fx-font-size: 14px;
+	-fx-text-fill: rgb(255, 255, 255);
+	-fx-background-color: rgb(60, 140, 250);
+	-fx-background-radius: 5 5 5 5;
+}
+
+.registration-button:hover {
+	-fx-font-size: 15px;
+}
+
+.reg-field-container {
+	-fx-background-color: transparent;
+}
+
+.reg-fields-info {
+	-fx-font-size: 14px;
+}
+
+.goto-login-button {
+	-fx-font-size: 14px;
+	-fx-background-color: transparent;
+	-fx-text-fill: rgb(60, 140, 250);
+}
+/* End Registriation */
+
+/* Calendar */
+.user-username-calendar-page {
+	-fx-text-fill: #fff;
+}
+
+.calendar-base {
+	-fx-background-color: transparent;
+}
+
+.calendar-grid {
+	-fx-background-color: #fff;
+	-fx-background-radius: 3 3 3 3;
+	-fx-border-radius: 3 3 3 3;
+	-fx-effect: dropshadow(gaussian, rgb(221, 221, 221), 5, 0.5, 0.0, 0.0);
+}
+
+.calendar-day {
+	-fx-background-color: #fff;
+}
+
+.calendar-day-base {
+	-fx-effect: dropshadow(gaussian, rgb(221, 221, 221), 5, 0.5, 0.0, 0.0);
+}
+
+.calendar-day-support-button {
+	-fx-background-color: transparent;
+}
+
+.support-calendar-day {
+	-fx-background-color: #efefef;
+}
+
+.mycalendar-label {
+	-fx-font-size: 13px;
+	-fx-text-fill: #fff;
+}
+
+/* End Calendar */
+
+/* Settings */
+.settings-menu-btn {
+	-fx-background-color: transparent;
+}
+
+.settings-base {
+	-fx-background-color: transparent;
+}
+
+.settings-container {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #fff;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 7, 0.5, 0.0, 0.0);
+}
+
+.settings-btn-container {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #fafafa;
+}
+
+.settings-option-button {
+	-fx-background-color: #fafafa;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 7, 0.5, 0.0, 0.0);
+}
+
+.settings-option-button:hover {
+	-fx-background-color: rgb(60, 140, 250);
+	-fx-text-fill: #FFFFFF;
+}
+
+.menu-button > .arrow-button {
+    -fx-padding: 0;
+}
+
+.menu-button > .arrow-button > .arrow {
+    -fx-padding: 0;
+}
+/* End Settings */
+
+/* Calendar Top Container */
+
+.month-button {
+	
+	-fx-font-size: 11px;
+	-fx-text-fill: rgb(60, 140, 250);
+	-fx-background-color: #fff;
+    -fx-border-radius: 40 40 40 40;
+    -fx-background-radius: 40 40 40 40;
+	
+	-fx-padding: 2px;
+    -fx-border-insets: 2px;
+    -fx-background-insets: 2px;
+
+	-fx-effect: dropshadow(gaussian, rgb(221, 221, 221), 5, 0.5, 0.0, 0.0);
+
+}
+
+.month-button:hover {
+	-fx-font-size: 11px;
+	-fx-text-fill: rgb(246, 246, 246);
+	-fx-background-color: rgb(60, 140, 250);
+}
+
+.month-button-selected {
+	-fx-text-fill: rgb(246, 246, 246);
+	-fx-background-color: rgb(60, 140, 250);
+}
+
+.add-event-button {
+	-fx-font-size: 12px;
+	-fx-background-color: rgb(60, 140, 250);
+	-fx-text-fill: #ffffff;
+	-fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+	-fx-effect: dropshadow(gaussian, rgb(221, 221, 221), 5, 0.5, 0.0, 0.0);
+}
+
+.add-event-button:hover {
+	-fx-background-color: linear-gradient(to bottom right, #3c8cfa -1%, #66ffcc 105%);
+	-fx-text-fill: #ffffff;
+}
+
+/* End Calendar Top Container */
+
+
+.my-color-picker {
+	-fx-background-color: #ffffff;
+	-fx-border-radius: 3 3 3 3;
+    -fx-background-radius: 3 3 3 3;
+	-fx-effect: dropshadow(gaussian, rgb(221, 221, 221), 5, 0.5, 0.0, 0.0);
+}
+
+/*AA*/
+.combo-box {
+	-fx-font: 14px Helvetica;
+	-fx-padding: 3 3 3 3;
+	-fx-background-color: #efefef;
+}
+
+.combo-box .list-cell {
+	-fx-background-color: transparent;
+	-fx-text-fill: #000;
+}
+
+.combo-box-popup .list-view {
+    -fx-font-size: 12px;
+	-fx-background-color:  #EFEFEF;
+}
+
+.combo-box-popup .list-view .list-cell:filled {
+    -fx-font-size : 12px;
+	-fx-background-color: #FFF; /* Colore sfondo degli elementi durante il popup) */
+	-fx-text-fill: #000;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected {
+	-fx-background-color:  rgb(60, 140, 250); /* Colore sfondo elemento selezionato durante il popup) */
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-font-size : 12px;
+	-fx-background-color:  rgb(60, 140, 250);
+}
+
+.years-combo-box {
+	-fx-font: 24px Helvetica;
+	-fx-background-color: transparent;
+	-fx-text-fill: rgb(60, 140, 250);
+}
+
+.years-combo-box .list-cell {
+	-fx-background-color: transparent;
+	-fx-text-fill: #000;
+}
+
+
+.calendar-page {
+	-fx-background-color: #fff;
+}
+
+.calendar-page-top-container {
+	-fx-background-color: rgb(60, 140, 250);
+	-fx-background-radius: 0 0 15 15;
+}
+
+.scroll-pane > .viewport {
+	-fx-background-color: transparent;
+}
+
+.scroll-pane {
+	-fx-background-color: transparent;
+}
+
+
+
+/* Selected Event */
+.selected-event {
+	-fx-background-color: #fff;
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-border-style: hidden hidden hidden solid;
+	-fx-border-width: 4;
+	-fx-border-color: #efefef;
+	-fx-effect: dropshadow(gaussian, rgb(226, 226, 226), 5, 0.5, 0.0, 0.0);
+}
+
+.add-event-button-sel-card {
+	-fx-background-color: transparent;
+}
+
+.selected-event-edit-icon {
+	-fx-background-color: transparent;
+}
+
+.selected-event-delete-icon {
+	-fx-background-color: transparent;
+}
+
+.selected-card-selected-day {
+	-fx-font-size: 13px;
+	-fx-text-fill: #fff;
+}
+
+.selected-day-card {
+	-fx-background-color: #fff;
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 7, 0.5, 0.0, 0.0);
+}
+
+.selected-day-top-container {
+	-fx-background-radius: 7 7 0 0;
+	-fx-border-radius: 7 7 0 0;
+	-fx-background-color: rgb(60, 140, 250);
+}
+
+.empty-selected-day-card {
+	-fx-background-color: #fff;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 5, 0.5, 0.0, 0.0);
+	 /*-fx-background-color: linear-gradient(to top left, #3c8cfa 0%, #ffffff 59%); */
+}
+
+.selected-day-events-container {
+	-fx-background-color: #fff;
+}
+
+.selected-day-event-time-start {
+	-fx-text-fill: #87898c;	
+}
+
+.noevents-control-base {
+	-fx-background-color: transparent;
+}
+
+.noevents-main-container {
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-background-color: #FFF;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 5, 0.5, 0.0, 0.0);
+}
+
+.noevents-control-info-label {
+	-fx-font-size: 11px;
+	-fx-padding: 5px;
+}
+
+.noevents-control-add-button {
+	-fx-font-size: 11px;
+	-fx-background-color: rgb(60, 140, 250);
+	-fx-text-fill: #ffffff;
+}
+
+.noevents-control-add-button:hover {
+	-fx-font-size: 12px;
+}
+
+/* End Selected Event */
+
+
+/* Add/Edit Event Dialog */
+.cal-event-dialog-base {
+	-fx-background-color: transparent;
+	-fx-opacity: 1;
+}
+
+.cal-event-internal {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #FFFFFF;
+	-fx-effect: dropshadow(gaussian, rgb(226, 226, 226), 11, 0.5, 0.0, 0.0);
+}
+
+.cal-event-dialog-title-label {
+	-fx-font-size: 22px;
+	-fx-font-weight: bold;
+}
+
+.cal-event-dialog-title-field {
+	-fx-font-size: 18px;
+}
+
+.close-event-dialog-button {
+	-fx-font-size: 12px;
+	-fx-background-color: #ff9e9e;
+	-fx-text-fill: #FEFEFE;
+	-fx-background-radius: 2 2 2 2;
+}
+
+.close-event-dialog-button:hover {
+	-fx-font-size: 13px;
+}
+
+.cal-event-dialog-duration-container {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #FFFFFF;
+}
+
+.cal-event-operation-button {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-font-size: 15px;
+	-fx-background-color: rgb(60, 140, 250);
+	-fx-text-fill: #FFFFFF;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 5, 0.5, 0.0, 0.0);
+}
+
+.cal-event-operation-button:hover {
+	-fx-font-size: 16px;
+	-fx-background-color: linear-gradient(to bottom right, #3c8cfa -1%, #66ffcc 105%);
+	-fx-text-fill: #FFFFFF;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 5, 0.5, 0.0, 0.0);
+}
+
+.colored-circle {
+	-fx-effect: dropshadow(gaussian, #bfbfbf, 5, 0.5, 0.0, 0.0);
+}
+/* END Add/Edit Event Dialog */
+
+/* Upcoming Events */
+.upcoming-ev-card {
+	-fx-background-color: transparent;
+}
+
+.upcoming-ev-top-container {
+	-fx-border-radius: 7 7 0 0;
+	-fx-background-radius: 7 7 0 0;
+	-fx-background-color: rgb(60, 140, 250);
+}
+
+.upcoming-ev-title {
+	-fx-font-size: 14px;
+	-fx-text-fill: #fff;
+}
+
+.upcoming-ev-container {
+	-fx-border-radius: 7 7 7 7;
+	-fx-background-radius: 7 7 7 7;
+	-fx-background-color: #fff;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 5, 0.5, 0.0, 0.0);
+}
+
+.upcoming-event-base {
+	-fx-border-radius: 0 7 7 0;
+	-fx-background-radius: 0 7 7 0;
+	-fx-border-style: hidden hidden hidden solid;
+	-fx-border-width: 7;
+	-fx-background-color: #fff;
+	-fx-effect: dropshadow(gaussian, rgb(212, 212, 212), 5, 0.5, 0.0, 0.0);
+}
+
+.upcoming-event-title-container {
+	-fx-border-radius: 0 7 0 0;
+	-fx-background-radius: 0 7 0 0;
+	-fx-border-color: #efefef;
+	-fx-border-style: hidden hidden solid hidden;
+	-fx-border-width: 3;
+}
+
+.upcoming-event-title {
+	-fx-font-size: 13px;
+	-fx-border-radius: 5 5 5 5;
+	-fx-background-radius: 5 5 5 5;
+}
+
+.upcoming-event-description {
+	-fx-text-fill: rgb(100, 100, 100);
+	-fx-font-size: 11px;
+}
+/* End Upcoming Events */
+
+/* START CUSTOM INPUT DIALOG */
+.input-dlg-base {
+	-fx-background-color: transparent;
+}
+
+.input-dlg-exit-btn {
+	-fx-background-color: transparent;
+}
+
+.input-dlg-main-container {
+	-fx-background-color: #FFF;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-effect: dropshadow(gaussian, rgb(230, 230, 230), 5, 0.5, 0.0, 0.0);
+}
+
+.input-dlg-title-content-container {
+	-fx-background-color: #FFF;
+}
+
+.input-dlg-title {
+	-fx-font-size: 15px;
+}
+
+.input-dlg-content {
+	-fx-font-size: 12px;
+}
+
+.input-dlg-btns-container {
+	-fx-background-color: #FFF;
+	-fx-border-radius: 0 0 10 10;
+	-fx-background-radius: 0 0 10 10;
+}
+
+.input-dlg-ok-btn {
+	-fx-border-radius: 5 5 5 5;
+	-fx-background-radius: 5 5 5 5;
+	-fx-background-color: #FFF;
+	-fx-text-fill: rgb(60, 140, 250);
+	-fx-effect: dropshadow(gaussian, rgb(230, 230, 230), 5, 0.5, 0.0, 0.0);
+}
+
+.input-dlg-no-btn {
+	-fx-border-radius: 5 5 5 5;
+	-fx-background-radius: 5 5 5 5;
+	-fx-background-color: #ff9e9e;
+	-fx-text-fill: #FFF;
+	-fx-effect: dropshadow(gaussian, rgb(230, 230, 230), 5, 0.5, 0.0, 0.0);
+}
+/* END CUSTOM INPUT DIALOG */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="StackPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="mainContainer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0">
+         <children>
+            <HBox fx:id="exitButtonContainer" alignment="TOP_RIGHT" prefHeight="40.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="exitButton" mnemonicParsing="false" onAction="#onExitButtonAction" text="X" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <VBox fx:id="titleAndContentContainer" alignment="CENTER" prefHeight="112.0" prefWidth="600.0">
+               <children>
+                  <Label fx:id="titleLabel" text="Do you want to go back to the Calendar Page?">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="contentLabel" text="The informations about the event will be lost." />
+               </children>
+            </VBox>
+            <HBox fx:id="buttonsContainer" alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="greenButton" mnemonicParsing="false" onAction="#onGreenButtonAction" text="green" />
+                  <Button fx:id="redButton" mnemonicParsing="false" onAction="#onRedButtonAction" text="red" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</fx:root>

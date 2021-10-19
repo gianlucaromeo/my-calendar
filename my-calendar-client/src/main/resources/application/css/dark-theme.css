@@ -1,0 +1,708 @@
+.root {
+	-fx-font: 12px Helvetica;
+	-fx-text-fill: #f9f9f9;
+}
+
+.label {
+	-fx-text-fill: #f9f9f9;
+}
+
+.custom-text-field {
+	-fx-text-fill: #000000;
+}
+
+.dtpicker-base {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #373737;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+}
+
+.dtpicker-textfield {
+	-fx-background-color: #313131;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+	-fx-text-fill: #FFFFFF;
+}
+
+.context-menu {
+	-fx-background-color: #313131;
+}
+
+.my-menu-item .label:hover {
+	-fx-background-color: #FFF;
+	-fx-text-fill: #313131;	
+}
+.my-menu-item {
+	-fx-background-color: #313131;
+	-fx-text-fill: #FFF;
+}
+
+/* DATE PICKER */
+.date-picker .combo-box {
+	-fx-background-insets: 0px ;
+	-fx-border-width: 0px;
+}
+
+.date-picker .text-field {
+	-fx-background-radius: 0px ;
+	-fx-border-width: 0;
+	-fx-background-color: #313131;
+	-fx-text-fill: #FFFFFF;
+}
+
+.date-picker .arrow-button {
+	-fx-background-radius:0px ;
+	-fx-background-color: #505050;
+	-fx-border-color: transparent;
+}
+
+.date-picker .arrow-button .arrow {
+	-fx-background-radius:0px ;
+	-fx-background-color: #1783CC;
+}
+
+.date-picker .arrow-button:hover .arrow{
+	-fx-background-radius:0px ;
+	-fx-background-color: #40a9ef;
+ }
+
+ .date-picker .button {
+	-fx-background-color: transparent;
+	-fx-border-color:transparent;
+	-fx-pref-height: 35px;
+	-fx-pref-width: 35px;
+ }
+
+ .date-picker .button:hover {
+	-fx-border-color:transparent;
+	-fx-pref-height: 35px;
+	-fx-pref-width: 35px;
+ }
+
+.date-picker .button .arrow:pressed {
+	-fx-pref-height: 35px;
+	-fx-pref-width: 35px;
+ }
+
+ .date-picker .cell {
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #313131;
+	-fx-border-color: transparent;
+	-fx-pref-width:20px ;
+	-fx-pref-height:25px ;
+ }
+
+.date-picker .cell:hover {
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #313131;
+	-fx-pref-width:20px ;
+	-fx-pref-height:25px ;
+}
+
+.date-picker .cell:focused {
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #313131;
+	-fx-pref-width:20px ;
+	-fx-pref-height:25px ;
+ }
+
+.date-picker-popup  {
+	-fx-border-color: transparent;
+	-fx-background-color: #333333;
+}
+
+.date-picker-popup .month-year-pane {
+	-fx-border-color: #212121;
+    -fx-background-color: #313131;
+	-fx-text-fill: #FFFFFF;
+}
+/* END DATE PICKER */
+
+/* SLIDER */
+.slider .track {
+	-fx-background-color: #242424;
+}
+
+.slider .thumb {
+	-fx-background-color: rgb(60, 150, 240);
+}
+/* END SLIDER */
+
+/* Initial Page, Left */
+.init-left-base {
+	-fx-background-color: #313131;
+}
+
+.init-left-main-container {
+	-fx-background-color: transparent;
+}
+
+.init-left-title {
+	-fx-font-size: 46px;
+	-fx-text-fill: #FFF;
+}
+
+.init-left-main-content {
+	-fx-font-size: 26px;
+	-fx-text-fill: #959595;
+}
+
+.init-left-content {
+	-fx-text-fill: #808080;
+	-fx-font-size: 18px;
+}
+/* End Initial Page, Left */
+
+.custom-text-field {
+	-fx-text-fill: #FFFFFF;
+}
+
+.init-page-base {
+	-fx-background-color: #313131;
+}
+
+.init-page-top {
+	-fx-background-color: #202020;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+}
+
+.calendar-base {
+	-fx-background-color: transparent;
+}
+
+.calendar-grid {
+	-fx-background-color: #313131;
+	-fx-background-radius: 3 3 3 3;
+	-fx-border-radius: 3 3 3 3;
+	-fx-effect: dropshadow(gaussian, #252525, 15, 0.5, 0.0, 0.0);
+}
+
+.calendar-day {
+	-fx-background-color: #383838;
+}
+
+.calendar-day-base {
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+}
+
+.calendar-day-support-button {
+	-fx-background-color: transparent;
+}
+
+.support-calendar-day {
+	-fx-background-color: #212121;
+	-fx-border-color: #313131;
+}
+
+.mycalendar-label {
+	-fx-font-size: 13px;
+	-fx-text-fill: #FFF;
+}
+
+.login-page {
+	-fx-background-color: transparent;
+}
+
+.login-form-top-container {
+	-fx-background-radius: 7 7 0 0;
+	-fx-border-radius: 7 7 0 0;
+	-fx-background-color: #202020;
+}
+
+.login-label {
+	-fx-font-size: 14px;
+}
+
+.login-form {
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-background-color: #313131;
+	-fx-effect: dropshadow(gaussian, #252525, 15, 0.5, 0.0, 0.0);
+}
+
+.login-button {
+	-fx-font-size: 11px;
+	-fx-text-fill: #efefef;
+	-fx-background-color: #313131;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+}
+
+.login-button:hover {
+	-fx-font-size: 12px;
+}
+
+.registration-page {
+	-fx-background-color: transparent;
+}
+
+.registration-form-top-container {
+	-fx-background-radius: 7 7 0 0;
+	-fx-border-radius: 7 7 0 0;
+	-fx-background-color: #202020;
+}
+
+.registration-form {
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-background-color: #313131;
+	-fx-effect: dropshadow(gaussian, #252525, 15, 0.5, 0.0, 0.0);
+}
+
+.registration-form-title {
+	-fx-text-fill: #efefef;
+	-fx-font-size: 16px;
+}
+
+.registration-button {
+	-fx-font-size: 14px;
+	-fx-text-fill: rgb(255, 255, 255);
+	-fx-background-color: #202020;
+	-fx-background-radius: 7 7 7 7;
+	-fx-effect: dropshadow(gaussian, #252525, 7, 0.5, 0.0, 0.0);
+}
+
+.registration-button:hover {
+	-fx-font-size: 15px;
+}
+
+.reg-field-container {
+	-fx-background-color: transparent;
+}
+
+.reg-fields-info {
+	-fx-font-size: 14px;
+}
+
+.goto-login-button {
+	-fx-font-size: 14px;
+	-fx-background-color: transparent;
+	-fx-text-fill: #f9f9f9;
+}
+
+.password-info-btn {
+	-fx-background-color: transparent;
+}
+
+.create-account-hlink {
+	fx-text-fill: rgb(60, 140, 250);
+}
+
+.create-account-hlink:hover {
+	fx-text-fill: rgb(0, 64, 128);
+}
+
+.settings-menu-btn {
+	-fx-background-color: transparent;
+}
+
+.menu-button > .arrow-button {
+    -fx-padding: 0;
+}
+
+.menu-button > .arrow-button > .arrow {
+    -fx-padding: 0;
+}
+
+.add-event-button-sel-card {
+	-fx-background-color: transparent;
+}
+
+.month-button {
+	
+	-fx-font-size: 11px;
+	-fx-text-fill: #f9f9f9;
+	-fx-background-color: #373737;
+    -fx-border-radius: 40 40 40 40;
+    -fx-background-radius: 40 40 40 40;
+	
+	-fx-padding: 2px;
+    -fx-border-insets: 2px;
+    -fx-background-insets: 2px;
+
+	-fx-effect: dropshadow(gaussian, rgb(41, 41, 41), 5, 0.5, 0.0, 0.0);
+
+}
+
+.month-button:hover {
+	-fx-font-size: 11px;
+	-fx-text-fill: #313131;
+	-fx-background-color: #EFEFEF;
+}
+
+.month-button-selected {
+	-fx-text-fill: #313131;
+	-fx-background-color: #EFEFEF;
+}
+
+.add-event-button {
+	-fx-font-size: 12px;
+	-fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+	-fx-background-color: #202020;
+	-fx-text-fill: #FFF;
+	
+	/*-fx-border-color: #FFF; -fx-border-style: hidden hidden solid hidden;*/
+	-fx-effect: dropshadow(gaussian, rgb(37, 37, 37), 11, 0.5, 0.0, 0.0);
+}
+
+.add-event-button:hover {
+	-fx-background-color: #313131;
+}
+
+.my-color-picker {
+	-fx-background-color: #373737;
+	-fx-border-radius: 3 3 3 3;
+    -fx-background-radius: 3 3 3 3;
+	-fx-effect: dropshadow(gaussian, rgb(61, 61, 61), 5, 0.5, 0.0, 0.0);
+}
+
+.combo-box {
+	-fx-font: 14px Helvetica;
+	-fx-padding: 3 3 3 3;
+	-fx-background-color: #313131;
+}
+
+.combo-box .list-cell {
+	-fx-background-color: transparent;
+	-fx-text-fill: #FFF;
+}
+
+.combo-box-popup .list-view {
+    -fx-font-size: 13px;
+	-fx-background-color:  #313131;
+}
+
+.combo-box-popup .list-view .list-cell:filled {
+    -fx-font-size : 13px;
+	-fx-background-color: #313131; /* Colore sfondo degli elementi durante il popup) */
+	-fx-text-fill: #FFF;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected {
+	-fx-background-color: #404040; /* Colore sfondo elemento selezionato durante il popup) */
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-font-size : 13px;
+	-fx-background-color: #404040;
+}
+
+.years-combo-box {
+	-fx-font: 24px Helvetica;
+	-fx-background-color: transparent;
+}
+
+.years-combo-box .list-cell {
+	-fx-background-color: transparent;
+	-fx-text-fill: #FFF;
+}
+
+.calendar-page {
+	-fx-background-color: #313131;
+}
+
+.calendar-page-top-container {
+	-fx-background-color: #202020;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+	-fx-background-radius: 0 0 15 15;
+}
+
+.scroll-pane > .viewport {
+	-fx-background-color: transparent;
+}
+
+.scroll-pane {
+	-fx-background-color: transparent;
+}
+
+.upcoming-ev-card {
+	-fx-background-color: transparent;
+}
+
+.upcoming-ev-top-container {
+	-fx-background-radius: 7 7 0 0;
+	-fx-border-radius: 7 7 0 0;
+	-fx-background-color: #202020;
+}
+
+.upcoming-ev-title {
+	-fx-font-size: 14px;
+	-fx-text-fill: #f9f9f9;
+}
+
+.upcoming-ev-container {
+	-fx-background-radius: 0 7 7 0;
+	-fx-border-radius: 0 7 7 0;
+	-fx-background-color: #313131;
+	-fx-effect: dropshadow(gaussian, #252525, 11, 0.5, 0.0, 0.0);
+}
+
+.selected-event {
+	-fx-background-color: #313131;
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-border-style: solid solid solid solid;
+	-fx-border-width: 1;
+	-fx-border-color: #373737;
+	-fx-effect: dropshadow(gaussian, rgb(41, 41, 41), 11, 0.5, 0.0, 0.0);
+}
+
+.selected-event-edit-icon {
+	-fx-background-color: transparent;
+}
+
+.selected-event-delete-icon {
+	-fx-background-color: transparent;
+}
+
+.selected-card-selected-day {
+	-fx-font-size: 13px;
+	-fx-text-fill: #FFFFFF;
+}
+
+.selected-day-card {
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-background-color: #313131;
+	-fx-effect: dropshadow(gaussian, #252525, 11, 0.5, 0.0, 0.0);
+}
+
+.selected-day-top-container {
+	-fx-background-radius: 7 7 0 0;
+	-fx-border-radius: 7 7 0 0;
+	-fx-background-color: #202020;
+}
+
+.empty-selected-day-card {
+	-fx-background-color: #212121;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+	 /*-fx-background-color: linear-gradient(to top left, #3c8cfa 0%, #000000 59%); */
+}
+
+.selected-day-events-container {
+	-fx-background-radius: 7 7 7 7;
+	-fx-border-radius: 7 7 7 7;
+	-fx-background-color: #313131;
+}
+
+.selected-day-event-time-start {
+	-fx-text-fill: #87898c;	
+}
+
+.noevents-control-base {
+	-fx-background-color: transparent;
+}
+
+.noevents-main-container {
+	-fx-background-color: #313131;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 15, 0.5, 0.0, 0.0);
+}
+
+.noevents-control-info-label {
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 11px;
+	-fx-padding: 5px;
+}
+
+.noevents-control-add-button {
+	-fx-font-size: 11px;
+	-fx-background-color: #212121;
+	-fx-text-fill: #EFEFEF;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+}
+
+.noevents-control-add-button:hover {
+	-fx-font-size: 12px;
+}
+
+.user-username-calendar-page {
+	-fx-text-fill: #FFFFFF;
+}
+
+.cal-event-dialog-base {
+	-fx-background-color: transparent;
+}
+
+.cal-event-dialog-main-container {
+	-fx-background-color: transparent;
+}
+
+.cal-event-internal {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #212121;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 11, 0.5, 0.0, 0.0);
+}
+
+.cal-event-dialog-title-label {
+	-fx-text-fill: #EFEFEF;
+	-fx-font-size: 22px;
+	-fx-font-weight: bold;
+}
+
+.cal-event-dialog-title-field {
+	-fx-text-fill: #EFEFEF;
+	-fx-font-size: 18px;
+}
+
+.close-event-dialog-button {
+	-fx-font-size: 12px;
+	-fx-background-color: #ff9e9e;
+	-fx-text-fill: #FEFEFE;
+	-fx-background-radius: 2 2 2 2;
+}
+
+.close-event-dialog-button:hover {
+	-fx-font-size: 13px;
+}
+
+.cal-event-dialog-duration-container {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #212121;
+}
+
+.cal-event-operation-button {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-font-size: 15px;
+	-fx-background-color: #373737;
+	-fx-text-fill: #fff;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 11, 0.5, 0.0, 0.0);
+}
+
+.cal-event-operation-button:hover {
+	-fx-font-size: 16px;
+	-fx-background-color: linear-gradient(to top left, #212121 0%, #505050 59%);
+}
+
+
+.colored-circle {
+}
+
+.settings-base {
+	-fx-background-color: transparent;
+}
+
+.settings-container {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #373737;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 7, 0.5, 0.0, 0.0);
+}
+
+.settings-btn-container {
+	-fx-background-radius: 7 7 7 7 ;
+	-fx-border-radius: 7 7 7 7 ;
+	-fx-background-color: #212121;
+}
+
+.settings-option-button {
+	-fx-background-color: #212121;
+	-fx-text-fill: #efefef;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 7, 0.5, 0.0, 0.0);
+}
+
+.settings-option-button:hover {
+	-fx-background-color: #313131;
+}
+
+
+.upcoming-event-base {
+	-fx-background-radius: 0 7 7 0;
+	-fx-border-radius: 0 7 7 0;
+	-fx-border-style: hidden hidden hidden solid;
+	-fx-border-width: 7;
+	-fx-background-color: #313131;
+	-fx-effect: dropshadow(gaussian, rgb(31, 31, 31), 5, 0.5, 0.0, 0.0);
+}
+
+.upcoming-event-title-container {
+	-fx-background-radius: 0 7 0 0;
+	-fx-border-radius: 0 7 0 0;
+	-fx-border-color: #373737;
+	-fx-border-style: hidden hidden solid hidden;
+	-fx-border-width: 3;
+}
+
+.upcoming-event-title {
+	-fx-text-fill: #FFF;
+	-fx-font-size: 13px;
+	-fx-border-radius: 5 5 5 5;
+	-fx-background-radius: 5 5 5 5;
+}
+
+.upcoming-event-description {
+	-fx-text-fill: rgb(160, 160, 160);
+	-fx-font-size: 11px;
+}
+
+/* START CUSTOM INPUT DIALOG */
+.input-dlg-base {
+	-fx-background-color: transparent;
+}
+
+.input-dlg-exit-btn {
+	-fx-background-color: transparent;
+}
+
+.input-dlg-main-container {
+	-fx-background-color: #313131;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-effect: dropshadow(gaussian, rgb(61, 61, 61), 5, 0.5, 0.0, 0.0);
+}
+
+.input-dlg-title-content-container {
+	-fx-background-color: transparent;
+}
+
+.input-dlg-title {
+	-fx-text-fill: #FFF;
+	-fx-font-size: 15px;
+}
+
+.input-dlg-content {
+	-fx-font-fill: #808080;
+	-fx-font-size: 12px;
+}
+
+.input-dlg-btns-container {
+	-fx-background-color: transparent;
+	-fx-border-radius: 0 0 10 10;
+	-fx-background-radius: 0 0 10 10;
+}
+
+.input-dlg-ok-btn {
+	-fx-border-radius: 5 5 5 5;
+	-fx-background-radius: 5 5 5 5;
+	-fx-background-color: #383838;
+	-fx-text-fill: #FFF;
+	-fx-effect: dropshadow(gaussian, rgb(61, 61, 61), 5, 0.5, 0.0, 0.0);
+}
+
+.input-dlg-no-btn {
+	-fx-border-radius: 5 5 5 5;
+	-fx-background-radius: 5 5 5 5;
+	-fx-background-color: #ff9e9e;
+	-fx-text-fill: #FFF;
+	-fx-effect: dropshadow(gaussian, rgb(61, 61, 61), 5, 0.5, 0.0, 0.0);
+}
+/* END CUSTOM INPUT DIALOG */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

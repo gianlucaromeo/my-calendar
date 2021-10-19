@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root alignment="TOP_CENTER" type="VBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox fx:id="topContainer" alignment="CENTER" minHeight="-Infinity" prefHeight="50.0">
+         <children>
+            <HBox fx:id="cardTitleContainer" alignment="CENTER" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label fx:id="selectedDayLabel" text="Label">
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </HBox>
+            <Button fx:id="addEventButton" mnemonicParsing="false" prefWidth="50.0" text="Add">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="260.0" vbarPolicy="NEVER" VBox.vgrow="ALWAYS">
+         <content>
+            <VBox fx:id="eventsContainer" alignment="TOP_CENTER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="260.0" spacing="10.0">
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding></VBox>
+         </content>
+      </ScrollPane>
+   </children>
+   <effect>
+      <DropShadow color="#d0d0d0" height="11.0" radius="5.0" width="11.0" />
+   </effect>
+</fx:root>
