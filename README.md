@@ -1,4 +1,4 @@
-## MyCalendar Project Documentation
+## MyCalendar 📆
 
 ### Project Overview
 
@@ -14,11 +14,11 @@ The application is written in Java and utilizes two main components:
 
 ### Key Features
 
-* Responsive design for adaptability across different large screens
-* Desktop notifications
-* Dual theme support (light and dark)
-* Multilingual support (English and Italian)
-* Accessibility considerations and adherence to UX principles
-* Minimal color palette for clarity and visual comfort
-* Implementation of keyboard shortcuts for enhanced user experience
-* Intuitive and easy-to-use interface
+* 📺 Responsive design for adaptability across different large screens
+* 🔔 Desktop notifications
+* ⚫⚪ Dual theme support (light and dark)
+* 🗺️ Multilingual support (English and Italian)
+* :accessibility: Accessibility considerations and adherence to UX principles
+* 🖌️ Minimal color palette for clarity and visual comfort
+* ⌨️ Implementation of keyboard shortcuts for enhanced user experience
+* 👌 Intuitive and easy-to-use interface
