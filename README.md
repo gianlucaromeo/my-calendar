@@ -1,9 +1,24 @@
-# my-calendar
-Una applicazione Desktop sviluppata per il corso di "Interfacce Grafiche e Programmazione Ad Eventi"
+## MyCalendar Project Documentation
 
-Il codice presente all'interno delle cartelle "my-calendar-server" e "my-calendar-client" è quello originale consegnato alla scadenza del progetto (25 luglio 2021).
-Pertanto, eventuali bug ed errori di codice non sono stati modificati.
+### Project Overview
 
-Questo progetto didattico è stato consegnato per il corso di IGPE, tenuto al secondo anno del corso di laurea di Informatica presso l'Università Della Calabria.
+MyCalendar is a desktop application developed for the "User Interfaces and Event-Oriented Programming" course during my Bachelor's degree in 2021. It aims to provide a user-friendly interface for managing events and schedules.
 
-Autore del progetto: Gianluca Romeo
+### Technology Stack
+
+The application is written in Java and utilizes two main components:
+
+1. **my-calendar-server:** Contains the code for the simulated server-side application that handles event data using sockets and its interaction with the SQLite database.
+
+2. **my-calendar-client:** Encompasses the JavaFX GUI code, including event management functionalities and user interface elements.
+
+### Key Features
+
+* Responsive design for adaptability across different large screens
+* Desktop notifications
+* Dual theme support (light and dark)
+* Multilingual support (English and Italian)
+* Accessibility considerations and adherence to UX principles
+* Minimal color palette for clarity and visual comfort
+* Implementation of keyboard shortcuts for enhanced user experience
+* Intuitive and easy-to-use interface
